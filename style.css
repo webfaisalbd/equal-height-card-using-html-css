@@ -29,16 +29,17 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 3px solid red;
+    /* for making parent wrap  */
+    flex-wrap: wrap;
 }
 
 .card {
     background: #fff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    flex: 1 1 21rem;
+    flex: 1 1 20rem;
     margin: 10px 20px;
-    border: 2px solid blue;
-    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 20px;
     align-self: normal;
     /* for button  */
     display: flex;
@@ -54,6 +55,7 @@ a {
 }
 
 .card .btn {
+    display: inline-block;
     background-color: green;
     color: #fff;
     text-align: center;
@@ -63,4 +65,9 @@ a {
     /* for button   */
     margin-top: auto;
 
+}
+
+.card img {
+    width: 250px;
+    object-fit: fill;
 }
