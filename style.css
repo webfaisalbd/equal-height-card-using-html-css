@@ -38,6 +38,8 @@ a {
     flex: 1 1 21rem;
     margin: 10px 20px;
     border: 2px solid blue;
+    flex-wrap: wrap;
+    align-self: normal;
 
 }
 
@@ -54,5 +56,5 @@ a {
     padding: 10px 20px;
     display: inline-block;
     border-radius: 5px;
-    
+
 }
