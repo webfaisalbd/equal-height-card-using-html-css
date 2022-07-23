@@ -47,4 +47,12 @@ a {
     margin: 10px 0;
 }
 
-
+.card .btn {
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    
+}
