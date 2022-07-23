@@ -40,6 +40,10 @@ a {
     border: 2px solid blue;
     flex-wrap: wrap;
     align-self: normal;
+    /* for button  */
+    display: flex;
+    flex-direction: column;
+
 
 }
 
@@ -56,5 +60,7 @@ a {
     padding: 10px 20px;
     display: inline-block;
     border-radius: 5px;
+    /* for button   */
+    margin-top: auto;
 
 }
